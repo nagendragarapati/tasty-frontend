@@ -1,0 +1,52 @@
+.main-home-container{
+
+}
+
+.header-container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
+  ),
+  url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.tasty-logo-text{
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: xxx-large;
+    margin: 5px;
+}
+.discover-text{
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 500;
+}
+.css-1nrlq1o-MuiFormControl-root{
+    background: #fff;
+    border-radius: 5px;
+    width: 450px;
+    color: #000;
+
+}
+.css-50vkr5-MuiPaper-root-MuiCard-root{
+    margin: 40px !important;
+    border-radius: 7px !important;
+}
+.two-cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+}
