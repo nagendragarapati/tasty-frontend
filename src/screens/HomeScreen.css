@@ -1,11 +1,5 @@
-.main-home-container{
-
-}
 
 .header-container{
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh;
     background:
   linear-gradient(
     rgba(0, 0, 0, 0.2),
@@ -16,6 +10,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
 
 }
 
@@ -32,10 +29,11 @@
     font-weight: 500;
 }
 .css-1nrlq1o-MuiFormControl-root{
-    background: #fff;
     border-radius: 5px;
     width: 450px;
     color: #000;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
 
 }
 .css-50vkr5-MuiPaper-root-MuiCard-root{

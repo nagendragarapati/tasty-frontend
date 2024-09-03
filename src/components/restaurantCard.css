@@ -1,0 +1,112 @@
+.res-card-main-container {
+    list-style: none;
+    width: 250px;
+    border-radius: 12px;
+    margin: 14px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.res-card-main-container:hover{
+    transform: scale(0.9);
+    transition: 0.5s ease;
+
+}
+
+.restaurant-main-img {
+    width: 250px;
+    height: 200px;
+    border-radius: 12px;
+    position: absolute;
+}
+.fav-icon-container{
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.fav-icon{
+    color: #fff;
+    cursor: pointer;
+}
+
+.name-rating-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.res-name {
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin: 0;
+    font-weight: 500;
+    width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.res-name:hover {
+    max-width: none;
+    white-space: normal;
+}
+
+.card-text-container {
+    padding: 15px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 195px;
+
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+}
+
+.rating-text {
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin-right: 1px;
+}
+
+.icon-container {
+    border-radius: 50px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.success-back {
+    background: green;
+}
+
+.alert-back {
+    background-color: #f18506;
+}
+
+.danger-back {
+    background-color: red;
+}
+
+.rating-icon {
+    color: #fff;
+    font-size: 16px !important;
+}
+
+.cuisine-text,
+.address-text {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: #0d0f1191;
+}

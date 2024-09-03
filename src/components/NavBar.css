@@ -1,0 +1,41 @@
+.css-5czdux-MuiPaper-root-MuiAppBar-root{
+    background: #fff !important;
+    color: #0000 !important;
+    box-shadow: none !important;
+
+}
+.tasty-logo{
+    height: 140px;
+
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+}
+.css-1iz4iln{
+    color:rgb(0 0 0 / 47%) !important;
+}
+
+.login-btn{
+    color: #105a63 !important;
+    outline: #105a63 !important;
+}
+.cart-icon{
+    font-size: 30px !important;
+    color: #105a63 !important;
+    cursor: pointer;
+}
+.search-box{
+    border-radius: 8px !important;
+    /* border: 1px solid rgb(232, 232, 232) !important; */
+}
+.css-1jrstcx-MuiInputBase-input{
+    color: black !important;
+}

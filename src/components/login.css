@@ -1,0 +1,43 @@
+.login-main-container{
+    width: 500px;
+    padding: 20px;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(184 201 224), transparent);
+}
+.login-middle-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-text-container{
+    text-align: center;
+}
+.account-text{
+    color: rgba(16, 90, 99, 255);
+    font-weight: 600;
+    font-family: 'Roboto';
+    cursor: pointer;
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+}
+.login-submit{
+    background-color: rgba(16, 90, 99, 255) !important;
+    margin-top: 15px !important;
+}
+.login-text{
+    font-family: 'Roboto';
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.form-control-input{
+    margin: 15px 0 !important;
+}
+.form-input,.form-control-input{
+     width: 290px !important; 
+}
+
