@@ -13,3 +13,14 @@ export const getAllRestaurants=async()=>{
 
     }
 }
+
+export const getRestaurantById=async(id)=>{
+    try{
+        const response=await axios.get(`${endpoint}/getRestaurantById/${id}`)
+        return response
+    }
+    catch(err){
+        console.log("getRestaurantById error",err.message)
+        return err
+    }
+}

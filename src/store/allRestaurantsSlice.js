@@ -21,4 +21,5 @@ export const restaurantsSlice = createSlice({
 });
 
 export const restaurantsActions = restaurantsSlice.actions;
+
 export default restaurantsSlice;

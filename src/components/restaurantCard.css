@@ -20,7 +20,7 @@
     position: absolute;
 }
 .fav-icon-container{
-    position: absolute;
+    position: relative;
     width: 240px;
     height: 50px;
     display: flex;
@@ -30,11 +30,22 @@
 .fav-icon{
     color: #fff;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.fav-icon:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease;
+
 }
 
 .name-rating-container {
     display: flex;
     justify-content: space-between;
+}
+.item-link{
+    text-decoration: none;
+    color: black;
 }
 
 .res-name {
@@ -59,7 +70,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 195px;
+    margin-top: 145px;
 
 }
 
@@ -74,6 +85,9 @@
     font-family: 'Roboto';
     font-size: 16px;
     margin-right: 1px;
+}
+.rating-icon{
+    font-size: 19px !important;
 }
 
 .icon-container {
@@ -96,11 +110,6 @@
 
 .danger-back {
     background-color: red;
-}
-
-.rating-icon {
-    color: #fff;
-    font-size: 16px !important;
 }
 
 .cuisine-text,

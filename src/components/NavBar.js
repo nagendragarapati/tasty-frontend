@@ -102,7 +102,7 @@ export default function HideAppBar(props) {
                                     <SearchIcon />
                                 </SearchIconWrapper>
                                 <StyledInputBase className='search-box'
-                                    placeholder="Searh for the restaurant or cuisine type"
+                                    placeholder="Search for the restaurant or cuisine type or dish"
                                     inputProps={{ 'aria-label': 'search' }}
                                     onChange={(e) => onInputChange(e)}
                                 />

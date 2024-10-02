@@ -4,6 +4,7 @@ import HomeScreen from "./screens/HomeScreen"
 import NotFound from "./components/NotFound";
 import Restaurants from "./screens/user/restaurants"
 import CreateRestaurant from "./screens/admin/createRestaurant";
+import RestaurantById from "./screens/user/restaurantById";
 import './App.css';
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomeScreen />} />
         <Route exact path="/order-online" element={<Restaurants />} />
+        <Route exact path="/order-online/:id" element={<RestaurantById />} />
+
         <Route path="/admin/create-restaurant" element={<CreateRestaurant />} />
         <Route path="*" element={<NotFound />} />
 

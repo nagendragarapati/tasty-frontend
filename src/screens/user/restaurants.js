@@ -2,7 +2,7 @@ import Container from '@mui/material/Container';
 import NavBar from "../../components/NavBar"
 import RenderGallery from "../../components/renderGallery"
 import SideDrawer from '../../components/sideDrawer';
-import { getAllRestaurants } from '../../components/servicecalls';
+import { getAllRestaurants } from '../../api/servicecalls';
 import { useDispatch, useSelector } from 'react-redux';
 import { restaurantsActions } from "../../store/allRestaurantsSlice"
 import { loginActions } from '../../store/loginSlice';
@@ -100,7 +100,6 @@ const Restaurants = () => {
         else {
             setError(response?.message)
             setStatus("ERROR")
-
         }
     }
 
@@ -111,7 +110,6 @@ const Restaurants = () => {
     })
 
     const displayRestaurants = () => {
-
         return (
             <div>
                 {
@@ -120,7 +118,6 @@ const Restaurants = () => {
 
             </div>
         )
-
     }
 
     const displayError = () => {
