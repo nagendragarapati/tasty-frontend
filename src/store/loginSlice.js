@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
     openSlider: false,
+    isLoggedin:false
 };
 
 export const loginSlice = createSlice({

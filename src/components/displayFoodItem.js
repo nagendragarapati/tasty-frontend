@@ -15,7 +15,7 @@ export default function DisplayFoodItem(props) {
   const { food } = props
   const { name, description, price, foodCategory, rating, images, ingredients,isSeasonal,isVegetarian } = food
 
-
+const addToCart=()=>{}
 
   return (
     <div className='acc-item'>
@@ -42,18 +42,16 @@ export default function DisplayFoodItem(props) {
               <CurrencyRupeeRoundedIcon className='rupee-icon' />
               <p className='margin-none price-text'>{price}</p>
             </div>
-
+            <p className='vegetarian-text'>{isVegetarian && "Vegetarian"}</p>
             <p className='margin-none category-text food-category cuisine-text '>Category: <span className='black-text'>{foodCategory}</span></p>
             <p className='margin-none category-text cuisine-text '>Ingredients: <span className='black-text'>{ingredients?.join(',')}</span></p>
-
-            <p className='vegetarian-text'>{isVegetarian && "Vegetarian"}</p>
             <p className='margin-none category-text desc-text'>{description}</p>
           </div>
 
           <div className='image-details'>
 
-            <img src={images[0]} alt='image' className='food-img' />
-            <Button variant="contained" className='add-btn'>Add</Button>
+            <img src={images[0]} alt='food-img' className='food-img' />
+            <Button variant="contained" className='add-btn' onClick={addToCart}>Add</Button>
 
           </div>
         </AccordionDetails>
